@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(169, 223, 228);
+}
+
+.container{
+    background-color: rgb(42, 6, 58);
+    border-radius: 10px;
+    padding: 50px 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 30%;
+    height: 450px;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.player-container{
+    background-color: rgb(41, 33, 23);
+    padding: 10px;
+
+}
+.grid-box {
+    background-color:rgb(76, 18, 80);
+    border-radius: 10px;
+    color: rgb(227, 206, 206);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(10px, 120% ,4rem);
+    font-weight: bold;
+
+}
