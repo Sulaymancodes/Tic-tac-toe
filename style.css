@@ -6,7 +6,34 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(169, 223, 228);
 }
+.header{
+    border-radius: 10px;
+    display:flex;
+    width: 30%;
+    justify-content: space-around;align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(42, 6, 58);
+    padding: 10px;
+}
+.player1div,
+.player2div,
+.vs{
+    padding: 4px 12px;
+    padding: 4px 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(213, 94, 51);
+}
 
+.player2div{
+    background-color: rgb(64, 150, 59);
+}
+
+.vs{
+    background-color: rgb(213, 181, 51);
+}
 .container{
     background-color: rgb(42, 6, 58);
     border-radius: 10px;
@@ -17,12 +44,26 @@ body{
     height: 450px;
     gap: 10px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 2px;
 }
 .player-container{
     background-color: rgb(41, 33, 23);
     padding: 10px;
 
+}
+.reset{
+    border-radius: 10px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 2px;
+    background-color: rgb(42, 6, 58);
+    text-align: center;
+    color: rgb(227, 206, 206);
+    padding: 10px;
+    font-weight: bold;
+}
+.reset:hover{
+    background-color: rgb(73, 12, 99);
 }
 .grid-box {
     background-color:rgb(76, 18, 80);
@@ -34,5 +75,8 @@ body{
     justify-content: center;
     font-size: clamp(10px, 120% ,4rem);
     font-weight: bold;
+}
 
+.grid-box:hover{
+    background-color: rgb(96, 24, 101);
 }

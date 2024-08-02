@@ -3,9 +3,22 @@ const createPlayer = function(name,mark){
 }
 
 
-const player1 = createPlayer('Sulaiman','X')
-const player2 = createPlayer('Karen','O')
+const player1 = createPlayer('Player One','X')
+const player2 = createPlayer('Player Two','O')
+
 const gamingInterface = (function(){
+    const player1Name = document.querySelector('.player1name');
+    const player1Mark = document.querySelector('.player1mark');
+    const player2Name = document.querySelector('.player2name');
+    const player2Mark = document.querySelector('.player2mark');
+
+    player1Name.innerText += player1.name;
+    player1Mark.innerText += player1.mark;
+    player2Name.innerText += player2.name;
+    player2Mark.innerText += player2.mark;
+
+
+
     const gridBoxes = document.querySelectorAll('.grid-box');
     let playerTurn = player1.mark;
     gridBoxes.forEach((grid) =>{
