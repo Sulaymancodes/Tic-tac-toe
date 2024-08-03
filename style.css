@@ -13,14 +13,12 @@ body{
     justify-content: space-around;align-items: center;
     margin: 0 auto;
     margin-top: 20px;
-    background-color: rgb(42, 6, 58);
     padding: 10px;
 }
 .player1div,
 .player2div,
 .vs{
-    padding: 4px 12px;
-    padding: 4px 16px;
+    padding: 10px;
     font-weight: bold;
     border-radius: 10px;
     text-align: center;
@@ -34,7 +32,18 @@ body{
 .vs{
     background-color: rgb(213, 181, 51);
 }
-.container{
+.text-container{
+    border-radius: 10px;
+    background-color: rgb(42, 6, 58);
+    display:flex;
+    width: 30%;
+    justify-content: space-around;align-items: center;
+    margin: 0 auto;
+    color: rgb(227, 206, 206);
+    font-weight: bold;
+    padding: 10px;
+}
+.grid-container{
     background-color: rgb(42, 6, 58);
     border-radius: 10px;
     padding: 50px 30px;
@@ -56,6 +65,7 @@ body{
     width: 30%;
     margin: 0 auto;
     margin-top: 2px;
+    margin-bottom: 10px;
     background-color: rgb(42, 6, 58);
     text-align: center;
     color: rgb(227, 206, 206);
