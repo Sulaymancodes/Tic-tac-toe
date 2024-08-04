@@ -2,8 +2,8 @@ const createPlayer = function(name,mark){
     return{name,mark}
 }
 
-const player1 = createPlayer('Player One','X')
-const player2 = createPlayer('Player Two','O')
+const player1 = createPlayer('Player-One','X')
+const player2 = createPlayer('Player-Two','O')
 
 const gameBoard = {
     board: ['','','','','','','','','']
