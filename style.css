@@ -113,16 +113,16 @@ body{
 /* Smaller phones */
 @media (max-width: 480px) {
     .header, .text-container, .grid-container, .reset {
-        width: 70%;
+        width: 90%;
     }
 
     .grid-box {
-        height: 60px;
+        height: 120px;
         font-size: clamp(10px, 80%, 2rem);
     }
 
     .grid-container {
-        height: 270px;
+        height: 480px;
         padding: 20px 10px;
     }
 }
